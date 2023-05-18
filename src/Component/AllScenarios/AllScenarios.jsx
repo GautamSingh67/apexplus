@@ -3,6 +3,7 @@ import { Nav } from '../Navbar/Nav'
 import { Link, useNavigate } from 'react-router-dom'
 import style from './style1.module.css';
 import axios from 'axios';
+
 export function AllScenarios({ data, setData, btn, setBtn }) {
   const [users, setUsers] = useState([]);
   const navigate = useNavigate();

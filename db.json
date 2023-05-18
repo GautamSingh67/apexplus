@@ -23,26 +23,32 @@
       "scenarioTime": "25",
       "scenarioCar": [],
       "id": 4
+    },
+    {
+      "scenarioName": "ritika",
+      "scenarioTime": "10",
+      "scenarioCar": [],
+      "id": 5
     }
   ],
   "scenarioCar": [
     {
-      "scenarioName": "bhanu",
-      "vehicleName": "audi",
-      "speed": "30",
-      "positionX": "678",
-      "positionY": "50",
-      "direction": "Upwards",
-      "id": 1
+      "scenarioName": "kapil",
+      "vehicleName": "farari",
+      "speed": "90",
+      "positionX": "120560",
+      "positionY": "670",
+      "direction": "Downwards",
+      "id": 3
     },
     {
-      "scenarioName": "Gautam",
-      "vehicleName": "merdeze Benz",
-      "speed": "80",
-      "positionX": "500",
-      "positionY": "100",
-      "direction": "Upwards",
-      "id": 2
+      "scenarioName": "bhanu",
+      "vehicleName": "bus",
+      "speed": "40",
+      "positionX": "560",
+      "positionY": "12",
+      "direction": "Towards",
+      "id": 4
     }
   ]
 }

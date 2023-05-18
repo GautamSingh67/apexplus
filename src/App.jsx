@@ -7,12 +7,23 @@ import { AllScenarios } from './Component/AllScenarios/AllScenarios'
 import { AddVehicle } from './Component/AddVehicle/AddVehicle'
 function App() {
   const[btn,setBtn] = useState(true);
+
+  //Add schenario useState
   const [data, setData] = useState({
     sName: "",
     sTime: "",
     sId : 0,
   })
-
+ 
+  //Add vehicle useState
+  const [vehicleControlForm, setVehicleControlForm] = useState({
+    sName: "",
+    vName: "",
+    speed: "",
+    positionX: "",
+    positionY: "",
+    direction: "",
+  })
   
   return (
     <div className="App">
@@ -21,7 +32,7 @@ function App() {
           <Route path='*' element = {<Home/>}/>
           <Route path='/addScenario' element = {<AddScenario data = {data} setData = {setData} btn = {btn} setBtn = {setBtn}/>}/>
           <Route path='/allScenarios' element = {<AllScenarios data = {data} setData = {setData} btn = {btn} setBtn = {setBtn}/>}/>
-          <Route path='/addVehicle' element = {<AddVehicle/>}/>
+          <Route path='/addVehicle' element = {<AddVehicle vehicleControlForm = {vehicleControlForm} setVehicleControlForm = {setVehicleControlForm}/>}/>
         </Routes>
       </BrowserRouter>
     </div>

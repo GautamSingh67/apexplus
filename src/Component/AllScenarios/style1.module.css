@@ -70,3 +70,49 @@ td button{
     color: white;
     cursor: pointer;
 }
+
+
+
+
+/* 
+this is homepage css
+*/
+
+.home1schenario{
+    margin: 3% 0% 5% 8%;
+}
+.schenarioName{
+    color: #f5f5f5c7;
+    font-size: larger;
+    font-weight: 500;
+}
+.selece-schenario{
+    padding: 1%;
+    margin-top: 1%;
+    font-size: 1rem;
+    color: #262323;
+    font-weight: 600;
+}
+.button-div{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    margin: 3% 8% 0% 0%;
+}
+.button-div-buton1{
+    padding: 1%;
+    background-color: #5dcf5d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+.button-div-buton2{
+    padding: 1%;
+    background-color: #7979dd;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: inherit;
+}
